@@ -24,6 +24,6 @@ e o ***Strategy***.
  ## 📈Diagramas C4
 * ### [Diagrama de contexto]() 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/90415957/142698553-9ae69758-f817-4de5-b00d-856a51183db7.png" />
+<img src="https://raw.githubusercontent.com/R0chR/POO_Game/4e5cd8a04685f8d88f5bf1c487fa93526fe6c054/Documentation/Images/contextDiagram.svg" />
 </div>
 <br><br>
