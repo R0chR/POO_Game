@@ -6,17 +6,22 @@
 !include DEVICONS/angular.puml
 !include DEVICONS/java.puml
 !include DEVICONS/msql_server.puml
+!include DEVICONS/firebase.puml
 !include FONTAWESOME/users.puml
 
+LAYOUT_WITH_LEGEND()
 
 Person(jogador, "Jogador", "Usuário do Jogo", $sprite="users")
-Container(plataformaJogo, "Plataforma do Jogo", "Unity", "Serviço responsável por 'rodar' o jogo")
-System(estatControle, "Sistema de controle de estatísticas", "Controla o histórico de partidas, estados do jogo")
+System_Boundary(c1, "Futebol de cabeção", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+      System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo")
+      System(estatControle, "Sistema de controle de estatísticas", "Controla o histórico de partidas, estados do jogo")
+      System_Ext(loginService, "Sistema de login Firebase", $sprite="firebase")
+}
 
 ContainerDb(db, "Banco de dados", "Postgres SQL", "Guarda informações dos jogadores, últimas partidas, etc",$sprite="msql_server")
 
 Rel(jogador, plataformaJogo, "Interage com o jogo", "Realiza comandos")
-
-Rel_R(plataformaJogo, estatControle, "Troca informações")
-Rel_R(estatControle, db, "Lê e escreve dados")
+Rel(plataformaJogo, estatControle, "Troca informações")
+Rel(plataformaJogo, loginService, "Uses", "HTTPS, JSON")
+Rel(estatControle, db, "Lê e escreve dados")
 @enduml
