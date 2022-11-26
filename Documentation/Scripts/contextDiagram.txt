@@ -1,5 +1,5 @@
 @startuml C4_Elements
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
 !define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
 !define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
@@ -9,19 +9,20 @@
 !include DEVICONS/firebase.puml
 !include FONTAWESOME/users.puml
 
-LAYOUT_WITH_LEGEND()
+Person(jogador, "Jogador", "Usuário do Jogo")
+Person_Ext(jogador2, "Jogador 2", "Usuário do Jogo")
 
-Person(jogador, "Jogador", "Usuário do Jogo", $sprite="users")
-System_Boundary(c1, "Futebol de cabeção", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
-      System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo")
-      System(estatControle, "Sistema de controle de estatísticas", "Controla o histórico de partidas, estados do jogo")
-      System_Ext(loginService, "Sistema de login Firebase", $sprite="firebase")
-}
+System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo")
+System_Ext(servidorJogo, "Servidor do Jogo", "Recebe os dados atuais das partidas")
 
-ContainerDb(db, "Banco de dados", "Postgres SQL", "Guarda informações dos jogadores, últimas partidas, etc",$sprite="msql_server")
+Rel(servidorJogo, plataformaJogo, "Troca de informações", "HTTP, JSON")
+Rel(plataformaJogo,servidorJogo, " ","")
 
-Rel(jogador, plataformaJogo, "Interage com o jogo", "Realiza comandos")
-Rel(plataformaJogo, estatControle, "Troca informações")
-Rel(plataformaJogo, loginService, "Uses", "HTTPS, JSON")
-Rel(estatControle, db, "Lê e escreve dados")
+Rel_R(jogador, plataformaJogo, "Interage com o jogo", "Realiza comandos")
+Rel_L(plataformaJogo, jogador, "Responde as interações", "")
+
+Rel_L(jogador2, plataformaJogo, "Interage com o jogo", "Realiza comandos")
+Rel_R(plataformaJogo, jogador2, "Responde as interações", "")
+
+
 @enduml
