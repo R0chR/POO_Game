@@ -18,12 +18,19 @@ Está sendo desenvolvido com o motor de jogo Unity e a linguagem de programaçã
 Utilizaremos o *Design Pattern* ***State*** para controlar os estados que os jogadores podem estar, o ***Factory*** para construirmos objetos necessários, 
 e o ***Strategy***.
 
+</section>
 
 <section id="Diagramas">
  
  ## 📈Diagramas C4
-* ### [Diagrama de contexto]() 
+* ### [Diagrame de contexto]()
 <div align="center">
-<img src="https://raw.githubusercontent.com/R0chR/POO_Game/4e5cd8a04685f8d88f5bf1c487fa93526fe6c054/Documentation/Images/contextDiagram.svg" />
+<img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/contextDiagram.svg" />
 </div>
-<br><br>
+
+* ### [Diagrama de container]() 
+<div align="center">
+<img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/containerDiagram.svg" />
+</div>
+
+</section>
