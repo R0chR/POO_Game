@@ -1,28 +1,38 @@
 @startuml C4_Elements
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
 
 !define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define DEVICONS2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons2
 !define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
 !include DEVICONS/angular.puml
 !include DEVICONS/java.puml
+!include DEVICONS/unity_small.puml
 !include DEVICONS/msql_server.puml
 !include DEVICONS/firebase.puml
+!include DEVICONS/aws.puml
+!include DEVICONS2/spring_wordmark.puml
 !include FONTAWESOME/users.puml
 
-Person(jogador, "Jogador", "Usuário do Jogo")
-Person_Ext(jogador2, "Jogador 2", "Usuário do Jogo")
+LAYOUT_WITH_LEGEND()
 
-System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo")
-System_Ext(servidorJogo, "Servidor do Jogo", "Recebe os dados atuais das partidas")
+Person(jogador, "Jogador", "Usuário do Jogo", $sprite="users")
+Person_Ext(jogador2, "Jogador2", "Usuário 2 do jogo", $sprite="users")
 
-Rel(servidorJogo, plataformaJogo, "Troca de informações", "HTTP, JSON")
-Rel(plataformaJogo,servidorJogo, " ","")
+System_Boundary(c1, "Futebol de cabeção", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+      System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo", $sprite="unity_small")
+      System(estatControle, "Sistema de controle de estatísticas", "Controla o histórico de partidas, estados do jogo",  $sprite="spring_wordmark")
+      System_Ext(servidor, "Servidor do jogo", "Amazon AWS", $sprite="aws")
+      Container(servicoAutenticacao, "Sistema de autenticação", $sprite="spring_wordmark")
+}
+
+ContainerDb(db, "Banco de dados", "Postgres SQL", "Guarda informações dos jogadores, últimas partidas, etc",$sprite="msql_server")
 
 Rel_R(jogador, plataformaJogo, "Interage com o jogo", "Realiza comandos")
-Rel_L(plataformaJogo, jogador, "Responde as interações", "")
-
-Rel_L(jogador2, plataformaJogo, "Interage com o jogo", "Realiza comandos")
-Rel_R(plataformaJogo, jogador2, "Responde as interações", "")
-
-
+Rel_R(jogador2, plataformaJogo, "Interage com o jogo", "Realiza comandos")
+Rel(plataformaJogo, servidor, " ", "")
+Rel(plataformaJogo, estatControle, "Troca informações")
+Rel(plataformaJogo, servicoAutenticacao, "Uses", "HTTPS, JSON")
+Rel(estatControle, db, "Lê e escreve dados")
+Rel(servicoAutenticacao, db, "Lê e escreve dados")
 @enduml
