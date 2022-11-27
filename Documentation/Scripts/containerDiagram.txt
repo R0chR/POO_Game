@@ -7,25 +7,30 @@
 !define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
 !include DEVICONS/angular.puml
 !include DEVICONS/java.puml
+!include DEVICONS/unity_small.puml
 !include DEVICONS/msql_server.puml
 !include DEVICONS/firebase.puml
-!include DEVICONS2/amazonwebservices_wordmark.puml
+!include DEVICONS/aws.puml
+!include DEVICONS2/spring_wordmark.puml
 !include FONTAWESOME/users.puml
 
 LAYOUT_WITH_LEGEND()
 
 Person(jogador, "Jogador", "Usuário do Jogo", $sprite="users")
-System_Boundary(c1, "Futebol de cabeção", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
-      System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo")
-      System(estatControle, "Sistema de controle de estatísticas", "Controla o histórico de partidas, estados do jogo")
-      System_Ext(servidor, "Servidor do jogo", "Amazon AWS", $sprite="amazonwebservice_wordmark")
-}
+Person_Ext(jogador2, "Jogador2", "Usuário 2 do jogo", $sprite="users")
 
-Container(servicoAutenticacao, "Sistema de autenticação", $sprite="firebase")
+System_Boundary(c1, "Futebol de cabeção", $link="https://github.com/plantuml-stdlib/C4-PlantUML") {
+      System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo", $sprite="unity_small")
+      System(estatControle, "Sistema de controle de estatísticas", "Controla o histórico de partidas, estados do jogo",  $sprite="spring_wordmark")
+      System_Ext(servidor, "Servidor do jogo", "Amazon AWS", $sprite="aws")
+      Container(servicoAutenticacao, "Sistema de autenticação", $sprite="spring_wordmark")
+}
 
 ContainerDb(db, "Banco de dados", "Postgres SQL", "Guarda informações dos jogadores, últimas partidas, etc",$sprite="msql_server")
 
-Rel(jogador, plataformaJogo, "Interage com o jogo", "Realiza comandos")
+Rel_R(jogador, plataformaJogo, "Interage com o jogo", "Realiza comandos")
+Rel_R(jogador2, plataformaJogo, "Interage com o jogo", "Realiza comandos")
+Rel(plataformaJogo, servidor, " ", "")
 Rel(plataformaJogo, estatControle, "Troca informações")
 Rel(plataformaJogo, servicoAutenticacao, "Uses", "HTTPS, JSON")
 Rel(estatControle, db, "Lê e escreve dados")
