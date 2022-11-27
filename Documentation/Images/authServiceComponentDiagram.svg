@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1350px" preserveAspectRatio="none" style="width:801px;height:1350px;background:#FFFFFF;" version="1.1" viewBox="0 0 801 1350" width="801px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="436" x="175.5" y="22.9951">Diagrama de Componentes - Sistema de autenticação</text><!--MD5=[22b83e6aaad20c92afca557a80a09085]
+cluster unity--><g id="cluster_unity"><rect fill="none" height="1109" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="473" x="292" y="44.2969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="229" x="414" y="61.1484">Sistema de autenticação</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="487" y="76.0605">[Container]</text></g><!--MD5=[19274422818999def862fc3446540689]
+cluster plataformaJogo--><g id="cluster_plataformaJogo"><rect fill="none" height="186" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="232" x="7" y="61.7969"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="180" x="33" y="78.6484">Plataforma do Jogo</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="81.5" y="93.5605">[Container]</text></g><!--MD5=[8c4c00334b64e4e750bf5aa94025d895]
+entity sistemaAutenticacao--><g id="elem_sistemaAutenticacao"><rect fill="#1168BD" height="154.1406" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="217" x="337.5" y="95.2969"/><image height="48" width="48" x="422" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADEUlEQVR4Xu2XMW4VMRCG9wq+AUfIEXKEHIEyJaJOQUULNU2a1KSlQSiRaBCCAgkKiqRIk0hRFAlR0Cxf/CujeeP31s/WewRFu/q12vWuPd+OZ8beIe2//680lE0PqxmophmopkcHtPf6y7OjH6/enb94+/Ppm29Pnp+U7zSpHwiIcdlx/Ply5+Cj3ung6wHC3s2vPxFk8cBtCJ+V3afVDARNNL7i0GyWI0yrGejs6ne0XBz4D5qUI6wcYVptQERuNF4ch6cXFjpctDK1AYXQ4ZYQVooxO7svP5VdWmetAShEDxDlOyZzUmtcNwDhfKOpmrGZqr4Z1ADE0KL58P26fBretOnbIhA2BDQdFhD42dwiEGFRBSLFkO+yRSDEZI05sUM7hvEKSUfG+fbpwF+qNiCbNat7EHw9v6WFc0h7PS0HmVYbUMqTgifkKg4KN1ZtNZW4FWjZvapmoJT9pJoEDWReQKh48qhjqU99QKm2hlC++2hSN1DKgWwBpAOvMKFLF5D11Q8UBEe3V7w2A6QS1RfFQZsBSnlH27rTWKqNAW1Kd0DkMBlLuvqoVBozFyo8yHZenFWUWUPoopxSX12Qg3hLJYCzXz3oQovqBe8grjlrkeFi0OjKVZU7bumpxFES2bZV1UX7ENus0VEVXEPbI7+b00dCrFve1JgaX6UVIDRoCFuesKeyq550MK9oCMWKjStLAWh0GyaZlOP1yEINb6lFK4zydLB9IB/qo1KNfk2QMW/VngYgLqyXdlFg6T8uLMyaE7/k3cUQpOZe+2jd+s7K7Zv8RxGsBiCf/9bCB4/F1kWUEUjiU9RHHLrwtS54yO8b1wFSAAUPyeICEGP5LNCUyxljnsfwiBH7gGwHbGuLTf0CkBjPcvbadbr3kGqBioJuLctagdL9J+nWrsdyylQb9AwzPstUonRta7gqhd8NqgXn6bffGwgtlvlj5pBdH1grK7X6lO3dAppP4jNAlBTR42Kk/jsguUrD+iP8BawEYu5bfxjW0V7eaB/mnxNmyvtGWgn0UJqBapqBapqBavoLV8t9GWushBEAAAAASUVORK5CYII=" y="105.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="74" x="395" y="168.1484">Sistema</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="469" y="168.1484"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="475" y="168.1484">de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="385.5" y="186.7734">autenticação</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="444" y="203.542"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="347.5" y="219.8389"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="351.5" y="219.8389">Controla</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="413.5" y="219.8389"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="417.5" y="219.8389">o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="426.5" y="219.8389"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="430.5" y="219.8389">login</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="465.5" y="219.8389"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="469.5" y="219.8389">e</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="478.5" y="219.8389"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="482.5" y="219.8389">cadastro</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="377" y="236.1357">de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="395" y="236.1357"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="399" y="236.1357">novos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="441" y="236.1357"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="445" y="236.1357">jogadores</text></g><!--MD5=[047961ff09b5f7946cbbfb4062644bbd]
+entity autenticacaoController--><g id="elem_autenticacaoController"><rect fill="#85BBF0" height="85.1875" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="169" x="312.5" y="324.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="336.5" y="349.1484">Controller</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="429.5" y="349.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="435.5" y="349.1484">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="336" y="367.7734">Autenticação</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="334.5" y="382.6855">[Possui</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="376.5" y="382.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="380.5" y="382.6855">endpoints</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="440.5" y="382.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="15" x="444.5" y="382.6855">de</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="78" x="322.5" y="396.6543">autenticação</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="400.5" y="396.6543"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="404.5" y="396.6543">mapeadas]</text></g><!--MD5=[daa0db0f42354ac301da7226c4f0d769]
+entity cadastroController--><g id="elem_cadastroController"><rect fill="#85BBF0" height="85.1875" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="195" x="516.5" y="324.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="93" x="553.5" y="349.1484">Controller</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="646.5" y="349.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="652.5" y="349.1484">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="84" x="572" y="367.7734">Cadastro</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="526.5" y="382.6855">[Possui</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="568.5" y="382.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="572.5" y="382.6855">endpoint</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="626.5" y="382.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="15" x="630.5" y="382.6855">de</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="645.5" y="382.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="649.5" y="382.6855">cadastro</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="580.5" y="396.6543">mapeadas]</text></g><!--MD5=[45f863933d5b055192d51b190e9bafac]
+entity autenticacaoRequestProcessor--><g id="elem_autenticacaoRequestProcessor"><rect fill="#85BBF0" height="117.7813" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="202" x="308" y="484.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="115" x="337.5" y="509.1484">Processador</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="452.5" y="509.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="458.5" y="509.1484">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="348" y="527.7734">requisição</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="442" y="527.7734"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="448" y="527.7734">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="348.5" y="546.3984">autenticação</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="336.5" y="561.3105">[Processa</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="393.5" y="561.3105"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="13" x="397.5" y="561.3105">as</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="410.5" y="561.3105"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="414.5" y="561.3105">requisições</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="318" y="575.2793">recebidas</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="376" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="7" x="380" y="575.2793">e</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="387" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="391" y="575.2793">encaminha</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="458" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="462" y="575.2793">para</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="489" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="7" x="493" y="575.2793">o</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="356" y="589.248">classe</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="392" y="589.248"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="15" x="396" y="589.248">de</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="411" y="589.248"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="415" y="589.248">serviço]</text></g><!--MD5=[a2ed429b294878a81e01242a686b6351]
+entity cadastroRequestProcessor--><g id="elem_cadastroRequestProcessor"><rect fill="#85BBF0" height="117.7813" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="202" x="545" y="484.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="115" x="574.5" y="509.1484">Processador</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="689.5" y="509.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="695.5" y="509.1484">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="585" y="527.7734">requisição</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="679" y="527.7734"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="685" y="527.7734">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="82" x="605" y="546.3984">cadastro</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="573.5" y="561.3105">[Processa</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="630.5" y="561.3105"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="13" x="634.5" y="561.3105">as</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="647.5" y="561.3105"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="651.5" y="561.3105">requisições</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="555" y="575.2793">recebidas</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="613" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="7" x="617" y="575.2793">e</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="624" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="67" x="628" y="575.2793">encaminha</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="695" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="699" y="575.2793">para</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="726" y="575.2793"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="7" x="730" y="575.2793">o</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="593" y="589.248">classe</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="629" y="589.248"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="15" x="633" y="589.248">de</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="648" y="589.248"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="652" y="589.248">serviço]</text></g><!--MD5=[f6a5cd8325d041f073489584e109fe3c]
+entity cadastroService--><g id="elem_cadastroService"><rect fill="#85BBF0" height="66.5625" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="192" x="557" y="677.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="84" x="575" y="702.1484">Cadastro</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="659" y="702.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="665" y="702.1484">Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="46" x="589" y="717.0605">[Realiza</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="635" y="717.0605"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="13" x="639" y="717.0605">as</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="652" y="717.0605"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="656" y="717.0605">operações</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="69" x="567" y="731.0293">necessárias</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="636" y="731.0293"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="640" y="731.0293">para</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="667" y="731.0293"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="7" x="671" y="731.0293">o</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="678" y="731.0293"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="682" y="731.0293">cadastro]</text></g><!--MD5=[8d52e357763bfe9e0c45db8cbf12682d]
+entity autenticacaoService--><g id="elem_autenticacaoService"><rect fill="#85BBF0" height="66.5625" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="214" x="308" y="677.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="318" y="702.1484">Autenticacao</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="440" y="702.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="446" y="702.1484">Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="46" x="351" y="717.0605">[Realiza</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="397" y="717.0605"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="13" x="401" y="717.0605">as</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="414" y="717.0605"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="418" y="717.0605">operações</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="69" x="321.5" y="731.0293">necessárias</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="390.5" y="731.0293"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="27" x="394.5" y="731.0293">para</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="421.5" y="731.0293"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="83" x="425.5" y="731.0293">autenticação]</text></g><!--MD5=[7652cd6636fe2e9b705b0f5ab8d0f1db]
+entity userRepository--><g id="elem_userRepository"><rect fill="#85BBF0" height="85.1875" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="207" x="404.5" y="819.2969"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="107" x="440.5" y="844.1484">Repositório</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="547.5" y="844.1484"> </text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="553.5" y="844.1484">de</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="69" x="473.5" y="862.7734">Usuario</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="414.5" y="877.6855">[Abstração</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="479.5" y="877.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="15" x="483.5" y="877.6855">do</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="498.5" y="877.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="502.5" y="877.6855">acesso</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="542.5" y="877.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="14" x="546.5" y="877.6855">ao</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="560.5" y="877.6855"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="37" x="564.5" y="877.6855">banco</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="15" x="478" y="891.6543">de</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="493" y="891.6543"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="41" x="497" y="891.6543">dados]</text></g><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><g id="elem_db"><path d="M412,989.2969 C412,979.2969 508,979.2969 508,979.2969 C508,979.2969 604,979.2969 604,989.2969 L604,1127.7813 C604,1137.7813 508,1137.7813 508,1137.7813 C508,1137.7813 412,1137.7813 412,1127.7813 L412,989.2969 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M412,989.2969 C412,999.2969 508,999.2969 508,999.2969 C508,999.2969 604,999.2969 604,989.2969 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><image height="48" width="48" x="484" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAADAklEQVR4Xu2XQWoVQRCGc7c+wLtADuAFPIAHMCtXwZ0LFy6zcyXZCW5ciEQQAhIICIoKBkEYP/rHpujqqp4XRwz4Hj/DvHrV3V9X1VTPOyoP39wpHXnTv9UBaKYD0Ez/B9Du0dv7zy5Pnl9J3GPxbkPNgR6cfXh1+e3rzU+0LMvV5x98PT2/vvfkPb+y3sX19+X3Bx8cuMF49vqThD8WrpD5+TtlQGyLeZkIpuPH72Thhq9PX37Uwt0y/AqiNoCbnY2vDHlx8cUvZJUBMZ5IePuaX6HEAe7ODhCb9P5NIRAbTXajXHi7lQLs3fKxIRD7U5V4sRIZ8fahYGJv1sJwcu09pTFQPoZM+VxEoqqgVwk2YYmeuzEQsUkyTc1GwRuKDXQ5SnZ7G6BkOi8iwWwMaSHJw783kApIzUmNJ0ofk1CIrTO1oCaTlwgoKVuqQX2PBxuRDl+2kvoCyWIIPq2MfAatxkAlrjvNrnuAiFPUIJQXtU07mzqt95dCoKjTW6BmIRje0xZKdO8VAlEZw0bsgUqwho1Ec1DxeeemEEjp8PZhSQ6BbCqbQ56vkgCVYBkPmjzGrSXqRk3Su1llQMMy8jHHx8dMIukKEkUGDffDMrDKgIbPp7qLteCTLENIGMIV7ml4Sg4URbg7d6MGIVFJ+LfXOu/QKQMq9az2x5b2KjsZHDahbhI0bA1eE6Co6ek00DI4JBEqFRpnhUdHmy/NpglQMU9KEwSi1EpgeZ8mFRB1pj0s9fjjGvnPgbog0TAh2NX/FZSFfkrqGv92+jJKb9bReVzWAJVaBFqPq6ZTYHSmKgYREKxL/a+iwLABX5RWq4B29e1YENwzqbDUZlipEXupNTMqr7OmVUBe5Eu5IEisZPPSSS3R2yPdEqhTAhSdKpH+LlDyohdpG6DT4H/I8NUg1zZAVJI/9cq6Pt5pGyD/TiIl/SnSNkBRrSQdPNI2QKWeJzZrVA8xG+Yx12ZApfZAQsJVfXnfZElbApX6CkU97Zsmq42B/lwHoJkOQDPdOaBfAMnk2ReBiGYAAAAASUVORK5CYII=" y="1003.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="56" x="435.5" y="1066.1484">Banco</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="491.5" y="1066.1484"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="22" x="497.5" y="1066.1484">de</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="519.5" y="1066.1484"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="55" x="525.5" y="1066.1484">dados</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="463.5" y="1081.0605">[Postgres</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="4" x="519.5" y="1081.0605"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="523.5" y="1081.0605">SQL]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="506" y="1096.8857"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="422" y="1113.1826">Guarda</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="472" y="1113.1826"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="476" y="1113.1826">informações</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="565" y="1113.1826"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="569" y="1113.1826">dos</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="434.5" y="1129.4795">usuários</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="491.5" y="1129.4795"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="495.5" y="1129.4795">cadastrados</text></g><!--MD5=[605e84d6b28bdd91843ababde174ab7b]
+entity jogo--><g id="elem_jogo"><rect fill="#999999" height="119.2188" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="200" x="23" y="112.7969"/><image height="48" width="48" x="99" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACZ0lEQVR4Xu2YoZbCMBBF+f8/GFWHw+FQdTgcDoXD4XDZd5rt7OskkzRQdjlne2WbNLczk0lhIx/Gxl74a1ahGqtQjf8qtN1u+74/n8/2RsIbhXa73fF4vF6vgdjv93bclIWFYiQg8Xg82EO5XC52zpRlhCCBlTwJg508ZQEhpMauWaSctQWEbrebXTMEZO10OqGG7I0QyqX9qtDhcNCVIAEDBEzvIo9k8g0ySw+wNAthvRtxv98RCZbgkSqBYRxI1L4dPdImZMoFy3RdZweNsAHqhmOJQNrRIw1CTTbYdzoybnUM1itwtRNG5go12QBuATqSY+ZNnyXUaoOq0sEIVfY6MkgzfqgLGRu8eqEkZWjWOhjqfIsf5bXsilCrDeDDKw2D3jKuSkkobcHZ7c1gN+ngbOVqZ+JUMq4QPzqCBWLzVfoEvLeOz9r3w+7zwiOeUBqbVpA4+9CBWGFpKpW8ULblN4FY2oeOhOc69YtO3oEVK6FwvrpCkjh5GzXSDfCUPle22oq8IJWEJHEqnEERbkLZIGmz9oqsIiSJU/a9GW7HppL4OHteSBKnwh6JZA8ymX48ecGeJSSJU/kzlBfmykMt6/Vsl5L5QtLoZD6G4kWNXLa8Ig1C0uJkPhdlWu+FDdsmJC1OnCBUjPdNYmgWkqG5KdgsCADWTs1QzlzdXqUbnhFiOBFhPIBR1HHJ7M+gwskqrwuJs2oYFjY/7COFc0MWEZLpR1mVNLnMMkIyFBaSxbvdw86cspiQgupBDSEv2f8evBNDWV6I0X9nVMg7MZT3CjFolZArbPjI7wnNZBWqsQrV+DihL6avO6Gnx2EkAAAAAElFTkSuQmCC" y="122.7969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="104" x="33" y="185.6484">Plataforma</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="137" y="185.6484"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="23" x="143" y="185.6484">do</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="6" x="166" y="185.6484"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="41" x="172" y="185.6484">Jogo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="121" y="202.417"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="33.5" y="218.7139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="37.5" y="218.7139">Serviço</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="90.5" y="218.7139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="94.5" y="218.7139">que</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="120.5" y="218.7139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="124.5" y="218.7139">'roda'</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="164.5" y="218.7139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="168.5" y="218.7139">o</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="177.5" y="218.7139"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="181.5" y="218.7139">jogo</text></g><!--MD5=[490a6b1fc6483ad57119e213a00712e8]
+link jogo to sistemaAutenticacao--><g id="link_jogo_sistemaAutenticacao"><path d="M223.429,172.2969 C256.861,172.2969 294.387,172.2969 328.965,172.2969 " fill="none" id="jogo-to-sistemaAutenticacao" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="337.22,172.2969,329.22,169.2969,329.22,175.2969,337.22,172.2969" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="241.25" y="152.4355">Requisição</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="243.25" y="166.4043">[JSON/HTTP]</text></g><!--MD5=[7040da1ecbb2c325c086073979301ed3]
+link sistemaAutenticacao to autenticacaoController--><g id="link_sistemaAutenticacao_autenticacaoController"><path d="M411.831,249.3689 C408.362,259.2859 405.283,269.4289 403,279.2969 C400.299,290.9749 398.697,303.7569 397.773,315.8259 " fill="none" id="sistemaAutenticacao-to-autenticacaoController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="397.236,324.0449,400.7511,316.2574,394.7638,315.8663,397.236,324.0449" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="404" y="291.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="453" y="291.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="457" y="291.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="466" y="291.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="470" y="291.4355">requisição</text></g><!--MD5=[4335236023196e0fb1fdcd5a5dce23f5]
+link sistemaAutenticacao to cadastroController--><g id="link_sistemaAutenticacao_cadastroController"><path d="M524.243,249.5849 C533.486,259.3789 542.606,269.4339 551,279.2969 C561.151,291.2249 571.448,304.6769 580.695,317.3569 " fill="none" id="sistemaAutenticacao-to-cadastroController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="585.428,323.9049,583.1719,315.6641,578.3096,319.1796,585.428,323.9049" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="563" y="291.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="612" y="291.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="616" y="291.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="625" y="291.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="629" y="291.4355">requisição</text></g><!--MD5=[22566e11c0a1d1196bfb66a44b1aa28b]
+link autenticacaoController to autenticacaoRequestProcessor--><g id="link_autenticacaoController_autenticacaoRequestProcessor"><path d="M399.874,409.5939 C401.239,429.4399 402.903,453.6389 404.435,475.9109 " fill="none" id="autenticacaoController-to-autenticacaoRequestProcessor" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="404.992,484.0179,407.4349,475.8306,401.4491,476.243,404.992,484.0179" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="404" y="451.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="453" y="451.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="457" y="451.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="466" y="451.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="470" y="451.4355">requisição</text></g><!--MD5=[2a3a400ad8049c80ec606ee9092bcdec]
+link cadastroController to cadastroRequestProcessor--><g id="link_cadastroController_cadastroRequestProcessor"><path d="M621.665,409.5939 C625.304,429.4399 629.742,453.6389 633.826,475.9109 " fill="none" id="cadastroController-to-cadastroRequestProcessor" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="635.313,484.0179,636.8209,475.608,630.9193,476.6902,635.313,484.0179" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="630" y="451.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="679" y="451.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="683" y="451.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="692" y="451.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="696" y="451.4355">requisição</text></g><!--MD5=[549c45e384ebb0f4d77fc1da690acbbf]
+link cadastroRequestProcessor to cadastroService--><g id="link_cadastroRequestProcessor_cadastroService"><path d="M648.468,602.6459 C649.391,624.4689 650.419,648.7789 651.263,668.7199 " fill="none" id="cadastroRequestProcessor-to-cadastroService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="651.612,676.9789,654.2722,668.8596,648.2775,669.1124,651.612,676.9789" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="651" y="644.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="700" y="644.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="704" y="644.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="713" y="644.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="717" y="644.4355">requisição</text></g><!--MD5=[ae85ef3085c8e6585f9ed0acf7a7f5e6]
+link autenticacaoRequestProcessor to autenticacaoService--><g id="link_autenticacaoRequestProcessor_autenticacaoService"><path d="M411.115,602.6459 C411.907,624.4689 412.788,648.7789 413.511,668.7199 " fill="none" id="autenticacaoRequestProcessor-to-autenticacaoService" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="413.81,676.9789,416.518,668.8754,410.522,669.0929,413.81,676.9789" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="414" y="644.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="463" y="644.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="467" y="644.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="476" y="644.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="480" y="644.4355">requisição</text></g><!--MD5=[6a59d910718e4a1e6de40afe16e7ebef]
+link cadastroService to userRepository--><g id="link_cadastroService_userRepository"><path d="M621.179,744.4959 C601.588,764.6269 576.138,790.7789 554.334,813.1839 " fill="none" id="cadastroService-to-userRepository" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="548.583,819.0939,556.3127,815.4536,552.0131,811.2686,548.583,819.0939" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="590" y="786.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="639" y="786.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="643" y="786.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="652" y="786.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="656" y="786.4355">requisição</text></g><!--MD5=[995275d756d0609191e33436dc874f70]
+link autenticacaoService to userRepository--><g id="link_autenticacaoService_userRepository"><path d="M409.249,744.5829 C408.241,758.9869 409.229,775.6829 416,789.2969 C420.363,798.0699 426.369,806.0829 433.239,813.3089 " fill="none" id="autenticacaoService-to-userRepository" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="439.197,819.1939,435.6134,811.4377,431.3971,815.7065,439.197,819.1939" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="49" x="417" y="786.4355">Escuta</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="466" y="786.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="470" y="786.4355">a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="479" y="786.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="483" y="786.4355">requisição</text></g><!--MD5=[18cb9a4ac4191a7ef881a0a1305652c7]
+link userRepository to db--><g id="link_userRepository_db"><path d="M508,904.5219 C508,923.9929 508,947.9289 508,971.0279 " fill="none" id="userRepository-to-db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="508,979.1549,511,971.1549,505,971.1549,508,979.1549" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="17" x="509" y="946.4355">Lê</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="526" y="946.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="9" x="530" y="946.4355">e</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="539" y="946.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="58" x="543" y="946.4355">escreve</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="4" x="601" y="946.4355"> </text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="44" x="605" y="946.4355">dados</text></g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="614" y="1190.292">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="671" y="1190.292"> </text><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1193.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="618" y="1206.5889">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1209.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="618" y="1222.8857">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1226.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="618" y="1239.1826">container</text><rect fill="#85BBF0" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1242.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="618" y="1255.4795">component</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1258.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="618" y="1271.7764">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1275.0781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="618" y="1288.0732">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1291.375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="618" y="1304.3701">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke:none;stroke-width:1.0;" width="156" x="614" y="1307.6719"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="618" y="1320.667">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1177.2969" y2="1177.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1193.5938" y2="1193.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1209.8906" y2="1209.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1226.1875" y2="1226.1875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1242.4844" y2="1242.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1258.7813" y2="1258.7813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1275.0781" y2="1275.0781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1291.375" y2="1291.375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1307.6719" y2="1307.6719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="770" y1="1323.9688" y2="1323.9688"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="614" x2="614" y1="1177.2969" y2="1323.9688"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="770" x2="770" y1="1177.2969" y2="1323.9688"/><!--MD5=[ba9ce247c600f7fc68df37c2ff8f37b4]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define DEVICONS2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons2
+!include DEVICONS/java.puml
+!include DEVICONS/postgresql.puml
+!include DEVICONS/react.puml
+!include DEVICONS/unity_small.puml
+!include DEVICONS2/spring_wordmark.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Diagrama de Componentes - Sistema de autenticação
+
+Container_Boundary(unity, "Sistema de autenticação"){
+   System(sistemaAutenticacao, "Sistema de autenticação", "Controla o login e cadastro de novos jogadores", $sprite="spring_wordmark")
+   Component(autenticacaoController, "Controller de Autenticação", "Possui endpoints de autenticação mapeadas")
+   Component(cadastroController, "Controller de Cadastro", "Possui endpoint de cadastro mapeadas")
+   Component(autenticacaoRequestProcessor, "Processador de requisição de autenticação", "Processa as requisições recebidas e encaminha para o classe de serviço")
+   Component(cadastroRequestProcessor, "Processador de requisição de cadastro", "Processa as requisições recebidas e encaminha para o classe de serviço")
+   Component(cadastroService, "Cadastro Service", "Realiza as operações necessárias para o cadastro")
+   Component(autenticacaoService, "Autenticacao Service", "Realiza as operações necessárias para autenticação")
+
+   Component(userRepository, "Repositório de Usuario", "Abstração do acesso ao banco de dados")
+
+   ContainerDb(db, "Banco de dados", "Postgres SQL", "Guarda informações dos usuários cadastrados", $sprite="postgresql")
+}
+
+
+
+Container_Boundary(plataformaJogo, "Plataforma do Jogo"){
+    System_Ext(jogo, "Plataforma do Jogo", "Serviço que 'roda' o jogo", $sprite="unity_small")
+}
+
+Rel_R(jogo,sistemaAutenticacao, "Requisição", "JSON/HTTP")
+Rel(sistemaAutenticacao, autenticacaoController, "Escuta a requisição")
+Rel(sistemaAutenticacao, cadastroController, "Escuta a requisição")
+Rel(autenticacaoController, autenticacaoRequestProcessor, "Escuta a requisição")
+Rel(cadastroController, cadastroRequestProcessor, "Escuta a requisição")
+Rel(cadastroRequestProcessor, cadastroService, "Escuta a requisição")
+Rel(autenticacaoRequestProcessor, autenticacaoService, "Escuta a requisição")
+Rel(cadastroService, userRepository, "Escuta a requisição")
+Rel(autenticacaoService, userRepository, "Escuta a requisição")
+Rel(userRepository, db, "Lê e escreve dados")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    BorderStyle dashed
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<boundary>>StereotypeFontColor transparent
+skinparam rectangle<<boundary>>StereotypeFontColor transparent
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+sprite $robot [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000005BFFFFFFFFFFFFFFFFFFFFFE9100000000000
+0000000000AFFFFFFFFFFFFFFFFFFFFFFFFFE30000000000
+0000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFE1000000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000699405FFFFFFC427FFFFFFFFFC427FFFFFFE009982000
+008FFF705FFFFFE10006FFFFFFFE00007FFFFFE00FFFF100
+00CFFF705FFFFFA00001FFFFFFF900002FFFFFE00FFFF500
+00DFFF705FFFFFB00002FFFFFFFA00003FFFFFE00FFFF500
+00DFFF705FFFFFF4000AFFFFFFFF3000BFFFFFE00FFFF500
+00DFFF705FFFFFFFA8DFFFFFFFFFFA8DFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00CFFF705FFFFFF87777777777777777CFFFFFE00FFFF500
+008FFF705FFFFFF100000000000000009FFFFFE00FFFF100
+000699405FFFFFF76666666666666666CFFFFFE009982000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000000EFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFD0000000000
+00000000004CFFFFFFFFFFFFFFFFFFFFFFFF910000000000
+000000000000011111111111111111111110000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $robot2 [48x48/16] {
+000000000000000088888888888888880000000000000000
+000000000000000AFFFFFFFFFFFFFFFFA000000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000004EFFFFFFFFFFFFFFFFFFE40000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFFA0000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000004CFFFFFFFFFFFFFFFFFFC40000000000000
+000000488888848CFFFFFFFFFFFFFFFFC848888884000000
+00000CFFFFFFFFC888888888888888888CFFFFFFFFC00000
+00008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000
+0000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0000CFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFC0000
+00008FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF80000
+00000CFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFC00000
+000000488887578888888888888888888864688884000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam person<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam actor<<component>> {
+    StereotypeFontColor #85BBF0
+    FontColor #85BBF0
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam person<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam actor<<external_component>> {
+    StereotypeFontColor #CCCCCC
+    FontColor #CCCCCC
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+sprite $java [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000120000000000000000000
+000000000000000000000000000080000000000000000000
+0000000000000000000000000001B0000000000000000000
+0000000000000000000000000005A0000000000000000000
+000000000000000000000000000C70000000000000000000
+000000000000000000000000006F10000000000000000000
+00000000000000000000000005F700000000000000000000
+0000000000000000000000006FB000000000000000000000
+000000000000000000000009FB0001650000000000000000
+0000000000000000000001CFA0018C200000000000000000
+000000000000000000002DF9005E90000000000000000000
+00000000000000000001DF8008F700000000000000000000
+0000000000000000000BFB005FA000000000000000000000
+0000000000000000001FF200CF3000000000000000000000
+0000000000000000001FD000FF4000000000000000000000
+0000000000000000000DE000EFB000000000000000000000
+00000000000000000005F2008FF600000000000000000000
+00000000000000000000AA001EFE00000000000000000000
+000000000000000000000B4004FF40000000000000000000
+0000000000000000000000A100BF20000000000000000000
+00000000000000000000000400A900000011000000000000
+00000000000000016730000001800000046CB10000000000
+00000000000005BD30000000010000120000DC0000000000
+0000000000001DFEA7765567889BCB7000008F1000000000
+000000000000001468899988753200000000BE0000000000
+000000000000000001000000000000000004F50000000000
+0000000000000000C800000000024200004E500000000000
+0000000000000000CFFDCBBBCEFFFC201881000000000000
+00000000000000000268AAAAA86400003000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000009A10000002410000000000000000000
+00000000000000000CFFFEDDEFFFF6000000000000000000
+00000000000003520049CEEFFCA720000000000000000000
+000000000019B50000000000000000000002400000000000
+0000000002FF820000000000000000000378000000000000
+00000000018DFFDB9766555566789ACCA610160000000000
+00000000000001357899AABAA9875310026AA10000000000
+0000000000000003542211111233579BCB72000000000000
+000000000000000002457778888765310000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV JAVA>> White
+sprite $postgresql [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000014666410000000000000
+000000000005BEEFDB7306CFFFEDFC999BFB400000000000
+0000000001CB5201258DFB400026BE500005DA0000000000
+000000000D700000000D7000000004D800000AC000000000
+000000006A000000009900000000001C9000009900000000
+00000000D300000001E0000000000000C600001F00000000
+00000001F000000007800000000000002E20000E10000000
+00000003C00000000B300000000000000790000F00000000
+00000003C00000000F0000000000000013F1001F00000000
+00000003C00000001E5BFE800000003DEDF3003C00000000
+00000001E00000002FC447C6000000D792C2007900000000
+00000000E10000002C004B6A000000F040E100B500000000
+00000000B40000002C00002D000000F000F000F000000000
+00000000870000002C00000F000000B500F005B000000000
+000000004B0000003C00000F0000006A00F00B5000000000
+000000000F0000004B00001F0000000E20E22E0000000000
+000000000B4000005B00004C00000007A0D2A70000000000
+00000000079000003D00009700000000E3E4E00000000000
+0000000002E000000D3000E1000000006DDB700000000000
+0000000000C3000004E305A0000000000CCD000000000000
+00000000006A000000DFCDA10000000005F7013400000000
+00000000000E20000AA05FCE200000003E9DFFEF20000000
+000000000006A0008C14BA0970000000880015D800000000
+000000000000C707D8FC603E700000009FDEFA3000000000
+0000000000001CFC1AD87AEC70000000B511000000000000
+00000000000000000048861880000000D200000000000000
+00000000000000000000000880000000F000000000000000
+00000000000000000000000880000001E000000000000000
+00000000000000000000000780000003C000000000000000
+00000000000000000000000690000005A000000000000000
+000000000000000000000004B00000097000000000000000
+000000000000000000000001E000000E2000000000000000
+000000000000000000000000A90003B90000000000000000
+0000000000000000000000000BEBDE700000000000000000
+000000000000000000000000002420000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV POSTGRESQL>> White
+sprite $react [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000686300000000003686000000000000000
+00000000000002EFFFFC30000003CFFFFD10000000000000
+0000000000000CF7249FF800009FF9427FB0000000000000
+0000000000002FB00001CFB01CFC20000AF1000000000000
+0000000000005F60000008FDDF90000005F4000000000000
+0000000000006F400000008FF800000004F6000000000000
+0000000000006F40000000CFFC00000003F6000000000000
+0000000000005F5000000AF99FB0000005F5000000000000
+0000000000003F7000007FB00BF7000007F3000000000000
+0000000000000FA00246FFA99AFF73100AF1000000000000
+0000000000000EFCFFFFFFFFFFFFFFFECEE0000000000000
+00000000004BFFFFC9DF82211228FD9BEFFE920000000000
+000000004CFFC9F802FD00000000DF307F9CFFB300000000
+00000008FF9200ED0BF3001441003FC0DE0029FF70000000
+0000009FC200009F8FA004EFFE400AF8F900002CF8000000
+000003FC0000002FFF201EFFFFE102FFF2000001CF200000
+000008F40000000BF9004FFFFFF4009FB00000004F700000
+000008F40000000CF9004FFFFFF4009FC00000004F800000
+000003FC0000003FFF200EFFFFE002FFF2000000CF300000
+0000008FD300009F8FA004EFFE400AF7F900002CF9000000
+00000007FFA300EE0BF4000440004FB0DE002AFF80000000
+000000003BFFDAF802FD00000000DF207FACFFC400000000
+000000000029EFFFC9DF83222238FDACFFFFB40000000000
+0000000000000EEBEFFFFFFFFFFFFFFFCEE0000000000000
+0000000000001FA00036FF9889FF63100AF0000000000000
+0000000000004F7000006FB00BF6000007F3000000000000
+0000000000005F5000000AF99FA0000005F5000000000000
+0000000000006F40000000CFFC00000004F6000000000000
+0000000000006F400000008FF800000004F6000000000000
+0000000000004F60000009FDDF90000006F4000000000000
+0000000000001FB00002CFB01BFC20000BF2000000000000
+0000000000000BF724AFF800008FF9427FC0000000000000
+00000000000001DFFFFB30000003CFFFFE20000000000000
+000000000000000465200000000003686000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV REACT>> White
+sprite $unity_small [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000026900000000000
+00000000000000000000000000000037BFFFF40000000000
+0000000000000000000000000026BEFFFFFFFA0000000000
+000000000000000000000006AEFFFFFFFFFFFF0000000000
+00000000000000000000003FFFFFFFFFFFFFFF4000000000
+0000000000000000000000CFFFFFFB87FFFFFF9000000000
+0000000000000000000005FFFB73000AFFFFFFE000000000
+00000000000000003CCCCD830000003FFFDCFFF200000000
+0000000000000003FFFFD100000000CFFF45FFF700000000
+000000000000003FFFFD1000000006FFFA01FFFC00000000
+00000000000003FFFFD1000000000EFFF100CFFF10000000
+0000000000003FFFFD10000000008FFF60008FFF50000000
+000000000003FFFFE20000000002FFFD00003FFFA0000000
+00000000003FFFFE20000000000BFFF500000FFFD0000000
+0000000003FFFFF300000000004FFFC000000AFF60000000
+000000004FFFFFC87777666666DFFF30000006FD00000000
+00000003FFFFFFFFFFFFFFFFFFFFFB00000002F500000000
+0000000AFFFFFFFFFFFFFFFFFFFFF800000000F200000000
+00000000AFFFFFFFFFFFFFFFFFFFFE00000004F900000000
+000000000AFFFFA00000000011AFFF60000008FF20000000
+0000000000AFFFF700000000002FFFE000000CFFB0000000
+00000000000AFFFF600000000008FFF800001FFFB0000000
+000000000000AFFFF50000000000EFFF10005FFF70000000
+0000000000000AFFFF40000000005FFFA0009FFF30000000
+00000000000000AFFFF4000000000CFFF400EFFE00000000
+000000000000000AFFFF4000000003FFFD02FFFA00000000
+0000000000000000AFFFF4000000009FFF78FFF600000000
+000000000000000004444BD94000001EFFFEFFF100000000
+0000000000000000000002FFFFC85107FFFFFFD000000000
+00000000000000000000007FFFFFFFDBFFFFFF9000000000
+00000000000000000000000BFFFFFFFFFFFFFF4000000000
+00000000000000000000000048CFFFFFFFFFFF0000000000
+000000000000000000000000000159EFFFFFFB0000000000
+000000000000000000000000000000026BFFF70000000000
+000000000000000000000000000000000003610000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV UNITY_SMALL>> White
+sprite $spring_wordmark [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000468751000000000000000000000
+00000000000000000008FFFFFFFA20010000000000000000
+000000000000000002EFFFFFFFFFF6650000000000000000
+00000000000000002FFFFFFFFFFFFF460000000000000000
+0000000000000000DFFFFFFFFFFFE4040000000000000000
+0000000000000007FFFFFFFFFFF910014000000000000000
+000000000000000EFFFFEA87630000006000000000000000
+000000000000002FFFF70000000001005000000000000000
+000000000000004FFF500000000004005000000000000000
+000000000000005FFB000000000053005000000000000000
+000000000000003FF6000000000570005000000000000000
+000000000000001FF6000000009900015000000000000000
+000000000000000BF90000017E8000070000000000000000
+0000000000000003FF4048CFC30000480000000000000000
+00000000000000009EBFFD82000028C00000000000000000
+0000000000000000032FDBBBBBCEFD100000000000000000
+0000000000000000007FFFFFFFFFA1000000000000000000
+000000000000000000018CFFFD9300000000000000000000
+000000000000000000000000310000000000000000000000
+000000000000000000000001FC0000000000000000000000
+000000000000000000000000840000000000000000000000
+000000000000000000000000000000000000000000000000
+02BED930BB19EE9101E86DA1D91D74CEC50006CDB44D4154
+1EFABFE0FFCFDFFD14FEFFA3FD4FEFEFFF309FFDDFCF8255
+4F900120FFC101DF84FFD303FD4FF500CF93FF4006FF8031
+2FFA4000FF20004FD4FF2003FD4FD0005FC8F90000BF8000
+06EFFD30FF00001FE4FD0003FD4FC0004FCAF600008F8000
+0005AFF0FF10004FD4FB0003FD4FC0004FC9F90000AF8000
+35000CF1FFA000CF94FB0003FD4FC0004FC5FF3004FF8000
+AFDAAFD0FFEDBEFE14FB0003FD4FC0004FC0CFFCCFFF8000
+06CFFB20FF2BFFA101E70001E92E80002E8009FFF8CF6000
+00000000FF00000000000000000000000001A72228FF1000
+00000000FF00000000000000000000000002EFFFFFF50000
+000000004500000000000000000000000000048996100000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV2 SPRING_WORDMARK>> White
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+title Diagrama de Componentes - Sistema de autenticação
+
+  rectangle "== Sistema de autenticação\n<size:12>[Container]</size>" <<container_boundary>><<boundary>> as unity {
+   rectangle "<$spring_wordmark>\n== Sistema de autenticação\n\n Controla o login e cadastro de novos jogadores" <<system>> as sistemaAutenticacao 
+   rectangle "== Controller de Autenticação\n//<size:12>[Possui endpoints de autenticação mapeadas]</size>//" <<component>> as autenticacaoController 
+   rectangle "== Controller de Cadastro\n//<size:12>[Possui endpoint de cadastro mapeadas]</size>//" <<component>> as cadastroController 
+   rectangle "== Processador de requisição de autenticação\n//<size:12>[Processa as requisições recebidas e encaminha para o classe de serviço]</size>//" <<component>> as autenticacaoRequestProcessor 
+   rectangle "== Processador de requisição de cadastro\n//<size:12>[Processa as requisições recebidas e encaminha para o classe de serviço]</size>//" <<component>> as cadastroRequestProcessor 
+   rectangle "== Cadastro Service\n//<size:12>[Realiza as operações necessárias para o cadastro]</size>//" <<component>> as cadastroService 
+   rectangle "== Autenticacao Service\n//<size:12>[Realiza as operações necessárias para autenticação]</size>//" <<component>> as autenticacaoService 
+
+   rectangle "== Repositório de Usuario\n//<size:12>[Abstração do acesso ao banco de dados]</size>//" <<component>> as userRepository 
+
+   database "<$postgresql>\n== Banco de dados\n//<size:12>[Postgres SQL]</size>//\n\nGuarda informações dos usuários cadastrados" <<container>> as db 
+}
+
+
+
+  rectangle "== Plataforma do Jogo\n<size:12>[Container]</size>" <<container_boundary>><<boundary>> as plataformaJogo {
+    rectangle "<$unity_small>\n== Plataforma do Jogo\n\n Serviço que 'roda' o jogo" <<external_system>> as jogo 
+}
+
+jogo -RIGHT->> sistemaAutenticacao : **Requisição**\n//<size:12>[JSON/HTTP]</size>//
+sistemaAutenticacao - ->> autenticacaoController : **Escuta a requisição**
+sistemaAutenticacao - ->> cadastroController : **Escuta a requisição**
+autenticacaoController - ->> autenticacaoRequestProcessor : **Escuta a requisição**
+cadastroController - ->> cadastroRequestProcessor : **Escuta a requisição**
+cadastroRequestProcessor - ->> cadastroService : **Escuta a requisição**
+autenticacaoRequestProcessor - ->> autenticacaoService : **Escuta a requisição**
+cadastroService - ->> userRepository : **Escuta a requisição**
+autenticacaoService - ->> userRepository : **Escuta a requisição**
+userRepository - ->> db : **Lê e escreve dados**
+@enduml
+
+PlantUML version 1.2022.14beta4(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

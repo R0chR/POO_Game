@@ -1,0 +1,45 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define DEVICONS2 https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons2
+!include DEVICONS/java.puml
+!include DEVICONS/postgresql.puml
+!include DEVICONS/react.puml
+!include DEVICONS/unity_small.puml
+!include DEVICONS2/spring_wordmark.puml
+
+LAYOUT_WITH_LEGEND()
+
+title Diagrama de Componentes - Sistema de autenticação
+
+Container_Boundary(unity, "Sistema de autenticação"){
+   System(sistemaAutenticacao, "Sistema de autenticação", "Controla o login e cadastro de novos jogadores", $sprite="spring_wordmark")
+   Component(autenticacaoController, "Controller de Autenticação", "Possui endpoints de autenticação mapeadas")
+   Component(cadastroController, "Controller de Cadastro", "Possui endpoint de cadastro mapeadas")
+   Component(autenticacaoRequestProcessor, "Processador de requisição de autenticação", "Processa as requisições recebidas e encaminha para o classe de serviço")
+   Component(cadastroRequestProcessor, "Processador de requisição de cadastro", "Processa as requisições recebidas e encaminha para o classe de serviço")
+   Component(cadastroService, "Cadastro Service", "Realiza as operações necessárias para o cadastro")
+   Component(autenticacaoService, "Autenticacao Service", "Realiza as operações necessárias para autenticação")
+
+   Component(userRepository, "Repositório de Usuario", "Abstração do acesso ao banco de dados")
+
+   ContainerDb(db, "Banco de dados", "Postgres SQL", "Guarda informações dos usuários cadastrados", $sprite="postgresql")
+}
+
+
+
+Container_Boundary(plataformaJogo, "Plataforma do Jogo"){
+    System_Ext(jogo, "Plataforma do Jogo", "Serviço que 'roda' o jogo", $sprite="unity_small")
+}
+
+Rel_R(jogo,sistemaAutenticacao, "Requisição", "JSON/HTTP")
+Rel(sistemaAutenticacao, autenticacaoController, "Escuta a requisição")
+Rel(sistemaAutenticacao, cadastroController, "Escuta a requisição")
+Rel(autenticacaoController, autenticacaoRequestProcessor, "Escuta a requisição")
+Rel(cadastroController, cadastroRequestProcessor, "Escuta a requisição")
+Rel(cadastroRequestProcessor, cadastroService, "Escuta a requisição")
+Rel(autenticacaoRequestProcessor, autenticacaoService, "Escuta a requisição")
+Rel(cadastroService, userRepository, "Escuta a requisição")
+Rel(autenticacaoService, userRepository, "Escuta a requisição")
+Rel(userRepository, db, "Lê e escreve dados")
+@enduml

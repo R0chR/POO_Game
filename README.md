@@ -33,4 +33,15 @@ e o ***Strategy***.
 <img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/containerDiagram.svg" />
 </div>
 
+* ### [Diagrama de componentes - Jogo]()
+<div align="center">
+<img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/gameComponentDiagram.svg" />
+</div>
+
+* ### [Diagrama de componentes - Serviço de autenticação]()
+<div align="center">
+<img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/gameComponentDiagram.svg" />
+</div>
+
+
 </section>

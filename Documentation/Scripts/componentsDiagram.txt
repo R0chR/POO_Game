@@ -1,0 +1,31 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!include DEVICONS/java.puml
+!include DEVICONS/mysql.puml
+!include DEVICONS/react.puml
+!include DEVICONS/unity_small.puml
+LAYOUT_WITH_LEGEND()
+
+title Diagrama de Componentes - Jogo
+
+Container_Boundary(unity, "Ecossistema Unity"){
+    System(plataformaJogo, "Plataforma do Jogo: Unity", "Serviço responsável por 'rodar' o jogo", $sprite="unity_small")
+}
+
+Container_Boundary(controladores, "Controllers"){
+Component(playerController, "Player Controller", "C# Class", "Controla todas as ações relacionadas ao jogador (boneco)")
+Component(cameraController, "Camera Controller", "C# Class", "Controla o comportamento da câmera durante a execução do jogo")
+Component(estatisticasController, "Estatistica Controller", "C# Class", "Controla as informações de estatísticas do jogo, tempo, placar.")
+}
+
+Rel(plataformaJogo, playerController, "Tem seu comportamento definido por", "")
+Rel(plataformaJogo, cameraController, "Tem seu comportamento definido por", "")
+Rel(plataformaJogo, estatisticasController, "Tem seu comportamento definido por", "")
+
+Container_Boundary(servicoDeEstatisticas, "Serviço Estatísticas"){
+    System_Ext(estatisticaService, "Serviço de Estatísticas", "Recebe as informações de estatísticas do jogo e as registra no banco de dados.")
+}
+
+Rel(estatisticasController,estatisticaService, "Passa e pede informações para o serviço de Estatisticas")
+@enduml
