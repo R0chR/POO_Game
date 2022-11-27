@@ -33,13 +33,18 @@ Container_Boundary(plataformaJogo, "Plataforma do Jogo"){
 }
 
 Rel_R(jogo,sistemaAutenticacao, "Requisição", "JSON/HTTP")
-Rel(sistemaAutenticacao, autenticacaoController, "Escuta a requisição")
-Rel(sistemaAutenticacao, cadastroController, "Escuta a requisição")
-Rel(autenticacaoController, autenticacaoRequestProcessor, "Escuta a requisição")
-Rel(cadastroController, cadastroRequestProcessor, "Escuta a requisição")
-Rel(cadastroRequestProcessor, cadastroService, "Escuta a requisição")
-Rel(autenticacaoRequestProcessor, autenticacaoService, "Escuta a requisição")
-Rel(cadastroService, userRepository, "Escuta a requisição")
-Rel(autenticacaoService, userRepository, "Escuta a requisição")
+
+Rel_L(sistemaAutenticacao, autenticacaoController, "Escuta a requisição")
+Rel_R(sistemaAutenticacao, cadastroController, "Escuta a requisição")
+
+Rel(autenticacaoController, autenticacaoRequestProcessor, "Transmite a requisição para processamento")
+Rel(cadastroController, cadastroRequestProcessor, "Transmite a requisição para processamento")
+
+Rel(cadastroRequestProcessor, cadastroService, "Envia objetos para operação")
+Rel(autenticacaoRequestProcessor, autenticacaoService, "Envia objetos para operação")
+
+Rel_L(cadastroService, userRepository, "Envia operação")
+Rel_R(autenticacaoService, userRepository, "Envia operação")
+
 Rel(userRepository, db, "Lê e escreve dados")
 @enduml
