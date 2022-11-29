@@ -45,7 +45,8 @@ O ecossistema Unity terá seu comportamento definido por um container de três c
 
 * ### [Diagrama de componentes - Serviço de autenticação]
  O Unity irá fazer uma requisição (JSON/HTTP) ao sistema de autenticação (Spring), responsável pelo controle de login e cadastro dos usuários, essa requisição sera detectada pelo controlador de autenticação, caso possua endpoint de autenticação mapeadas, ou pelo controlador de cadastro, caso possua endpoint de cadastro mapeadas.
-No caso de autenticação, a requisição sera transmitida para o processador de requisição de autenticação, que irá enviar os objetos ao serviço de autenticação que repassa a operação ao repositório de usuário, para leitura e escrita no banco de dados (SQL) das informações do usuário. O mesmo processo se repete em caso de cadastro, porém para processadores e serviços da respectiva requisição. 
+
+ No caso de autenticação, a requisição sera transmitida para o processador de requisição de autenticação, que irá enviar os objetos ao serviço de autenticação que repassa a operação ao repositório de usuário, para leitura e escrita no banco de dados (SQL) das informações do usuário. O mesmo processo se repete em caso de cadastro, porém para processadores e serviços da respectiva requisição. 
 
 <div align="center">
 <img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/authServiceComponentDiagram.svg" />
