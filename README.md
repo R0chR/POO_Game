@@ -1,5 +1,3 @@
-# POO_Game
-
 <p align="center">
  <a href="#Descrição">Descrição</a> |
  <a href="#Diagramas">Diagramas</a> |
