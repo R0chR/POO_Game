@@ -25,15 +25,13 @@ e o ***Command*** para encapsular solicitações como objetos para permitir a pa
 * ### [Diagrama de contexto]
 Dois jogadores terão acesso a uma partida, que irá acontecer pelo serviço Unity, que conforme recebe comandos dos players, responde com as respectivas interações. Além disso, o jogo irá fazer trocas de informações a todo momento com o servidor externo do jogo, via HTTP e JSON.
  
-("https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/contextDiagram.svg")
 <div align="center">
 <img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/contextDiagram.svg" />
 </div>
 
 * ### [Diagrama de container]
 Dois usuários irão acessar o jogo via Unity, que irá trocar informações com sistema de autenticação (Spring) para verificar a identidade dos jogadores. Durante a partida, comandos dos players serão recebidos pelo jogo, que a todo momento efetua troca de informações com o servidor em nuvem (AWS) e o sistema de controle de estatísticas (Spring) como, estados, pontuação, partida, entre outros. Todos os dados de autenticação e estatística serão lidos e escritos em um banco de dados externo (SQL) para armazenamento das informações dos jogadores, partidas, entre outros.   
- 
-("https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/containerDiagram.svg") 
+  
 <div align="center">
 <img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/containerDiagram.svg" />
 </div>
@@ -41,7 +39,6 @@ Dois usuários irão acessar o jogo via Unity, que irá trocar informações com
 * ### [Diagrama de componentes - Jogo]
 O ecossistema Unity terá seu comportamento definido por um container de três controladores. O primeiro, “Player Controller” diz respeito a todas as ações relacionadas ao personagem virtual do jogador, já o “Câmera Controller” sera responsável pelo posicionamento da câmera durante a execução do jogo, e o “Estatística Controller” irá manipular as informações de tempo, placar, entre outros. Esse contêiner de controladores irá enviar e solicitar dados ao contêiner de “Serviços Estatísticas”, que também registra tudo no banco de dados.
  
-("https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/gameComponentDiagram.svg")
 <div align="center">
 <img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/gameComponentDiagram.svg" />
 </div>
