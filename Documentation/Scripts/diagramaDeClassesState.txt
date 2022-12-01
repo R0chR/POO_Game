@@ -1,0 +1,95 @@
+@startuml
+Class StatefulPlayer {
+- PresentState: State
+- SpecialState: State
++ActivateSpecial()
++BackToNormalState()
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+
+Abstract Class State {
+#player: StatefulPlayer
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+Class NormalState {
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+Class SlowState {
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+Class FastState {
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+Class BigState {
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+Class FreezeState {
++BecomeNormal()
++BecomeSlow()
++BecomeFast()
++BecomeBig()
++BecomeFreeze()
+}
+
+StatefulPlayer o- State : State
+
+State <|-- FreezeState
+State <|-- BigState
+State <|-- FastState
+State <|-- SlowState
+State <|-- NormalState
+
+note left of StatefulPlayer::PresentState
+  Representa o estado atual do jogador
+end note
+note left of StatefulPlayer::Special
+  Representa o estado especial que o jogador pode ativar
+end note
+note left of StatefulPlayer::ActivateSpecial()
+  Método responsável por setar o PresentState em SpecialState
+end note
+
+note top of StatefulPlayer
+  <size:14><b><u>Context</u></b></size>
+end note
+
+note as n1
+<size:14><b><u>Concrete State</u></b></size>
+endnote
+
+n1 -u.. NormalState
+n1 -u.. SlowState
+n1 -u.. FastState
+n1 -u.. BigState
+n1 -u.. FreezeState
+@enduml

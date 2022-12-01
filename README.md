@@ -59,8 +59,8 @@ Neste caso, o Client (Jogo) terá um Receiver, uma interface com todos os métod
 
 ### Diagrama do Padrão State
 O Pattern State sera utilizado para controlar os diferentes estados dos players durante a partida, em que cada classe representara um estado.
-Todos os estados possíveis terão uma classe, com todos os seus respectivos comportamentos específicos extraídos para tal. Para eliminar a necessidade de implementar os comportamentos por conta própria, o objeto original StatefulPlayer, nosso Context, armazena uma referência a um dos objetos de estado que representa seu estado atual e delega o trabalho. A interface State sera responsável pelo armazenamento de todos os estados possíveis, e a classe abstrata terá como alvo o Context, no caso, o jogador. Cada classe abaixo da abstrata representa um possível estado de jogador durante a partida, Normal, Lento, Rápido, Gigante e Congelado, com os respectivos métodos para o pleno funcionamento.
-<img src="Documentation/Images/DiagramaDeClassesState.jpg">
+Todos os estados possíveis terão uma classe, com todos os seus respectivos comportamentos específicos extraídos para tal. Para eliminar a necessidade de implementar os comportamentos por conta própria, o objeto original StatefulPlayer, nosso Context, armazena uma referência a um dos objetos de estado que representa seu estado atual e delega o trabalho. A interface State sera responsável pelo armazenamento de todos os estados possíveis, e a classe abstrata terá como alvo o Context, no caso, o jogador. Cada classe concreta, localizada abaixo da abstrata, representa um possível estado de jogador durante a partida, Normal, Lento, Rápido, Gigante e Congelado, com os respectivos métodos para o pleno funcionamento.
+<img src="Documentation/Images/DiagramaDeClassesState.png">
 </section>
 
 <section id="tecnologias">
