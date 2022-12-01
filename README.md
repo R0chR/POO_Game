@@ -50,7 +50,17 @@ O ecossistema Unity terá seu comportamento definido por um container de três c
 <img src="https://github.com/R0chR/POO_Game/blob/main/Documentation/Images/authServiceComponentDiagram.svg" />
 </div>
 
+## Diagramas Design Patterns 
 
+### Diagrama do Padrão Command
+O Pattern Command sera responsável por ler os dados brutos enviados pelo jogador, como as teclas pressionadas por exemplo. Cada comando sera captado e traduzido para uma ação significativa no jogo, como movimentação do personagem e interações com a bola e o gol.
+Neste caso, o Client (Jogo) terá um Receiver, uma interface com todos os métodos que dizem respeito aos objetos do jogo, tendo em sua derivação os próprios objetos (Jogador, Bola e Gol), que compõem o grupo dos Concrete Receivers. O Field (Campo) sera um Invoker para a interface de comando, com os respectivos comandos possíveis de acordo com a entrada do player, como chutar a bola ou movimentar o personagem, essas ações são caracterizadas como comandos concretos.
+<img src="Documentation/Images/DiagramaDeClassesUML.png" />
+
+### Diagrama do Padrão State
+O Pattern State sera utilizado para controlar os diferentes estados dos players durante a partida, em que cada classe representara um estado.
+Todos os estados possíveis terão uma classe, com todos os seus respectivos comportamentos específicos extraídos para tal. Para eliminar a necessidade de implementar os comportamentos por conta própria, o objeto original StatefulPlayer, nosso Context, armazena uma referência a um dos objetos de estado que representa seu estado atual e delega o trabalho. A interface State sera responsável pelo armazenamento de todos os estados possíveis, e a classe abstrata terá como alvo o Context, no caso, o jogador. Cada classe abaixo da abstrata representa um possível estado de jogador durante a partida, Normal, Lento, Rápido, Gigante e Congelado, com os respectivos métodos para o pleno funcionamento.
+<img src="Documentation/Images/DiagramaDeClassesState.jpg">
 </section>
 
 <section id="tecnologias">
