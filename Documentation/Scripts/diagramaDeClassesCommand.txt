@@ -1,16 +1,23 @@
 @startuml
-interface IObject
-IObject : +Kick()
-IObject : +Reset()
-IObject : +OnGoal()
-IObject : +Walk()
-IObject : +Run()
-IObject : +Kicked()
-IObject : +Right()
-IObject : +Left()
-IObject : +Forward()
-IObject : +Backward()
-IObject : +Score()
+interface IObjectBall {
+ +Reset()
+ +OnGoal()
+ +Kicked()
+}
+
+interface IObjectGoal {
+ +Score()
+}
+
+interface IObjectPlayer {
+ +Kick()
+ +Reset()
+ +Walk()
+ +Run()
+ +Right()
+ +Left()
+ +Jump()
+}
 
 interface ICommand
 ICommand : +Execute()
@@ -22,53 +29,40 @@ class Field{
  +ExitField()
 }
 
-class Player implements IObject
-Player : +Kick()
-Player : +Reset()
-Player : +OnGoal()
-Player : +Walk()
-Player : +Run()
-Player : +Kicked()
-Player : +Right()
-Player : +Left()
-Player : +Forward()
-Player : +Backward()
-Player : +Score()
+class Player implements IObjectPlayer{
+ +Kick()
+ +Reset()
+ +Walk()
+ +Run()
+ +Right()
+ +Left()
+ +Jump()
+}
 
-class Ball implements IObject
-Ball : +Kick()
-Ball : +Reset()
-Ball : +OnGoal()
-Ball : +Walk()
-Ball : +Run()
-Ball : +Kicked()
-Ball : +Right()
-Ball : +Left()
-Ball : +Forward()
-Ball : +Backward()
-Ball : +Score()
-
-class Goal implements IObject
-Goal : +Kick()
-Goal : +Reset()
-Goal : +OnGoal()
-Goal : +Walk()
-Goal : +Run()
-Goal : +Kicked()
-Goal : +Right()
-Goal : +Left()
-Goal : +Forward()
-Goal : +Backward()
+class Goal implements IObjectGoal
 Goal : +Score()
 
+class Ball implements IObjectBall {
+ +Reset()
+ +OnGoal()
+ +Kicked()
+}
 
-IObject -right-- ResetBall
-IObject -right-- RegisterGoal
-IObject -right-- KickBall
+ResetBall -l-- IObjectBall
+KickBall -l-- IObjectBall 
+RegisterGoal -l-- IObjectGoal
+PlayerAction -l-- IObjectPlayer
+PlayerMove -l-- IObjectPlayer
 
-
-Field -o ICommand 
+Field -l-o ICommand 
 note top of Field: Invoker
+
+class PlayerAction implements ICommand
+class PlayerAction {
+-_receiver: IObject
++Execute()
++Undo()
+}
 
 class ResetBall implements ICommand
 class ResetBall{
@@ -81,6 +75,7 @@ note bottom of ResetBall: Receiver
 
 class RegisterGoal implements ICommand
 class RegisterGoal{
+-_receiver: IObject
 +OnGoal()
 +Execute()
 +Undo()
@@ -88,26 +83,29 @@ class RegisterGoal{
 
 class KickBall implements ICommand
 class KickBall {
+-_receiver: IObject
 +Execute()
 +Undo()
 }
 
 class PlayerMove implements ICommand
 class PlayerMove {
+-_receiver: IObject
 +Execute()
 +Undo()
 }
 
-class PlayerAction implements ICommand
-class PlayerAction {
-+Execute()
-+Undo()
-}
+
 Game : +{static} Main()
 
-Game -right..> ResetBall
-Game -- IObject
 
+Game -- IObjectBall
+Game -- IObjectPlayer
+Game -- IObjectGoal
+
+
+
+note top of Game : "Interaje com todos Concrete Commands"
 note "Concrete Commands" as N
 ResetBall .. N
 RegisterGoal .. N
